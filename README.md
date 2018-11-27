@@ -2,6 +2,8 @@
 
 Push service by node with kafka
 
+![result image](result.png)
+
 - [rurumimic/kafka-manager](https://github.com/rurumimic/kafka-manager)
 - [web-push-libs/web-push](https://github.com/web-push-libs/web-push)
 - [vkarpov15/web-push-demo](https://github.com/vkarpov15/web-push-demo)
@@ -80,7 +82,3 @@ node server.js
 and go to '[localhost:3000](http://localhost:3000)'
 
 use Chrome or Firefox.
-
-## Result
-
-![result image](result.png)
