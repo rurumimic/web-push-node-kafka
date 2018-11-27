@@ -1,0 +1,30 @@
+{
+  "name": "web-push-node-kafka",
+  "version": "1.0.0",
+  "description": "Push service by node with kafka",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rurumimic/web-push-node-kafka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rurumimic/web-push-node-kafka/issues"
+  },
+  "dependencies": {
+    "kafka-node": {
+      "version": "^3.0.1",
+      "no-optional": "true"
+    },
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "web-push": "^3.3.3"
+  },
+  "devDependencies": {},
+  "author": "rurumimic",
+  "license": "ISC"
+}
